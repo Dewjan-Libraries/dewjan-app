@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpenReader } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook } from "@fortawesome/react-fontawesome";
-import { faSquareInstagram } from "@fortawesome/react-fontawesome";
-import { faSquareTwitter } from "@fortawesome/react-fontawesome";
+// import { faFacebook } from "@fortawesome/react-fontawesome";
+// import { faSquareInstagram } from "@fortawesome/react-fontawesome";
+// import { faSquareTwitter } from "@fortawesome/react-fontawesome";
 
 // import I from "../constants/index";
 
@@ -73,11 +73,11 @@ const Footer = () => {
         <p>123 Kojo Thompson Road</p>
         <p>Accra</p>
         <p>030 546 789 123</p>
-        <div className="flex  gap-10">
+        {/* <div className="flex  gap-10">
             <p className=""><FontAwesomeIcon icon= {faFacebook} /></p>
             <p className=""><FontAwesomeIcon icon= {faSquareInstagram} /></p>
             <p className=""><FontAwesomeIcon icon= {faSquareTwitter} /></p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
