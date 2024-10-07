@@ -6,9 +6,10 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Navbar/>,
+    <div>
+    <Navbar/>
     <Footer/>
-    
+    </div>
   )
 }
 
