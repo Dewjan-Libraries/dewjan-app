@@ -5,12 +5,12 @@ const AddBook = () => {
   return (
     <div>
       <Navbar />
-      <Footer />
       <span>add new book</span>
       <form action="">
         <input type="text" />
         <button type="submit">submit</button>
       </form>
+      <Footer />
     </div>
   );
 };
