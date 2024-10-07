@@ -69,15 +69,15 @@ const Footer = () => {
         
       </div>
       <div className="bg-orange-300 w-[30%] pt-10 pl-10">
-        <h1 className="text-3xl"><FontAwesomeIcon icon={faBookOpenReader} /> Public Library </h1>
+        <h1 className="text-3xl"><span><FontAwesomeIcon icon={faBookOpenReader} /></span> Public Library </h1>
         <p>123 Kojo Thompson Road</p>
         <p>Accra</p>
         <p>030 546 789 123</p>
-        {/* <div className="flex  gap-10">
-            <p className=""><FontAwesomeIcon icon= {faFacebook} /></p>
-            <p className=""><FontAwesomeIcon icon= {faSquareInstagram} /></p>
-            <p className=""><FontAwesomeIcon icon= {faSquareTwitter} /></p>
-        </div> */}
+        <div className="flex  gap-10">
+          {/* <span><FontAwesomeIcon icon= {faFacebook} /></span>
+          <span><FontAwesomeIcon icon= {faSquareInstagram} /></span>
+          <span><FontAwesomeIcon icon= {faSquareTwitter} /></span> */}
+        </div>
       </div>
     </div>
   );
