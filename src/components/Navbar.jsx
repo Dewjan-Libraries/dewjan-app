@@ -8,12 +8,12 @@ import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 const Navbar = () => {
 
     return (
-        <nav className="bg-white shadow-lg ">
+        <nav className="bg-red-100 fixed w-full shadow-lg ">
 
-            <div className="bg-white text-black ">
+            <div className="from-inherit text-black ">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex justify-between items-center">
-                        <div className="logo">
+                        <div className="logo italic">
                             <div>
                                 <a href="#" className="flex items-center ">
 
