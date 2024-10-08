@@ -1,21 +1,22 @@
 const Hero = () => {
   return (
     <div className="hero">
-      <div>
-        <h1 className="text-3xl pt-96 text-white ">Library Management App</h1>
+      <div className="text-5xl pt-96 pb-10 text-white ml-7 ">
+        <h1 >Library Management App</h1>
       </div>
-      <div className="flex justify-between text-white items-center w-[100vw] h-[30vh]">
-        <div className=" flex  w-[70%] h-[50%] bg-orange-300 ml-1 pl-10 border solid border-black text-2xl">
+      <div className="flex  justify-between text-white border solid text-2xl border-orange-400 border-l-orange-400 rounded-lg items-center w-[95vw] ml-6">
+        <div className=" flex  w-[70%] h-[20vh] bg-orange-300 pl-10 rounded-lg hover:bg-red-500 hover:border-red-400  ">
           <button  type="submit">
             {" "}
-            Search ...
+            Search 
           </button>
-          <input type="text"  placeholder=""/>
+          <input  className="w-[60vw] bg-orange-300" type="text" placeholder="......"/>
         </div>
-        <div className="flex justify-center items-center w-[30%] h-[50%] border solid border-black bg-slate-500 text-2xl ">
+        <div className="flex justify-center flex-col items-center w-[35%] h-[20vh]  bg-slate-500 text-2xl rounded-r-lg  hover:bg-red-500 hover:border-red-400">
           <h3>
-            The library Opens <span>24/7</span>
+            The library Opens
           </h3>
+          <h2 className="pt-3 text-orange-500">6:00am - 12:00am</h2>
         </div>
       </div>
     </div>
