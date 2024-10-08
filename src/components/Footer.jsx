@@ -30,7 +30,7 @@ const Footer = () => {
           <a href="">Vison, Mission & Values</a>
           <a href="">Vison, Mission & Values</a>
           <a href="">Vison, Mission & Values</a>
-          <a href="">Vison, Mission & Values</a>
+          
         </p>
         </div>
         <div>
@@ -63,7 +63,7 @@ const Footer = () => {
           <a href="">Vison, Mission & Values</a>
           <a href="">Vison, Mission & Values</a>
           <a href="">Vison, Mission & Values</a>
-          <a href="">Vison, Mission & Values</a>
+          
         </p>
         </div>
         
