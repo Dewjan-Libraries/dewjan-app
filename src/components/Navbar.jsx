@@ -3,8 +3,6 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 
-
-
 const Navbar = () => {
 
     return (

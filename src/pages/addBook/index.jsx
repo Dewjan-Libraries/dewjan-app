@@ -5,10 +5,7 @@ import React, { useState } from 'react';
 const AddBook = () => {
   return (
     <div>
-
       <Navbar />
-     
-
       <div className="image pl-8 pt-40   ">
       <h3 className="font-bold text-2xl text-gray-300">Add new book</h3>
       <form className="flex flex-col pt-4 w-full max-w-lg box-border shadow-pink" action="">
