@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import BookList from './pages/bookList';
 import AddBook from './pages/addBook';
 import BookDetails from './pages/bookDetails';
+import Hero from './pages/hero';
+
 
 
 function App() {
@@ -13,6 +15,10 @@ function App() {
   const router = createBrowserRouter ([
 {
   path:"/",
+  element:<Hero/>,
+},
+{
+  path:"/list",
   element:<BookList/>,
 },
 {
