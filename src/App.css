@@ -14,9 +14,25 @@
   }
 
   .image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.4)), url("./assets/images/image-5.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0),
+    rgba(0, 0, 0, 0.0)), url("./assets/images/image-9.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
   }
+.img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.6)), url("./assets/images/footer-img1.png");
+}
+
+.imgs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.6)), url("./assets/images/footer-img2.png");
+}
+
+.pic{
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.6)), url("./assets/images/image-18.webp")
+}
