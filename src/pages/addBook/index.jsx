@@ -1,3 +1,4 @@
+
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import React, { useEffect, useState } from 'react';
@@ -44,9 +45,25 @@ const AddBook = () => {
 
   return (
     <div>
-
       <Navbar />
-
+      <div className="image pl-8 pt-40   ">
+      <h3 className="font-bold text-2xl text-gray-300">Add new book</h3>
+      <form className="flex flex-col pt-4 w-full max-w-lg box-border shadow-pink" action="">
+      <div class="mb-4">
+      <label class="block text-gray-300 text-sm font-bold mb-2" for="username">
+        TITLE
+      </label>
+      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="title" type="text" placeholder=""/>
+    </div>
+       
+    <div class="mb-4">
+      <label class="block text-gray-300 text-sm font-bold mb-2" for="Authors">
+        AUTHORS
+        
+      </label>
+      <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="authors" type="text" placeholder=""/>
+      <p className="italic text-gray-200 font-semibold">Seperate authors with a comma.</p>
+    </div>
 
       <div className="image pl-10 pt-36   ">
 
