@@ -11,8 +11,6 @@ import Register from './pages/forms/reg';
 import Join from './pages/join';
 import EditBook from './pages/editBook';
 import Hero from './pages/hero';
-import About from './pages/about';
-
 
   
 function App() {
@@ -29,10 +27,6 @@ function App() {
 {
   path:"/add-new",
   element: <AddBook/>,
-},
-{
-  path:"/dewjan",
-  element: <About/>,
 },
 {
   path:"/books/:id",
