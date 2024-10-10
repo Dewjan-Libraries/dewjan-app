@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://dewjan-api-nsqg.onrender.com';
+export const BASE_URL = 'https://dewjan-api-1.onrender.com';
