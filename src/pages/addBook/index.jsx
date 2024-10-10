@@ -29,11 +29,12 @@ const AddBook = () => {
         title: formData.get('title'),
         author: formData.get('author'),
         description: formData.get('description'),
-        publisher: formData.get('publisher'),
-        month: formData.get('month'),
-        day: formData.get('day'),
-        year: formData.get('year'),
-        formFileMultiple: formData.get('formFileMultiple'),
+        genre: formData.get('genre'),
+        // publisher: formData.get('publisher'),
+        // month: formData.get('month'),
+        // day: formData.get('day'),
+        // year: formData.get('year'),
+        // formFileMultiple: formData.get('formFileMultiple'),
       })
     } catch (error) {
       console.log(error)
@@ -46,9 +47,9 @@ const AddBook = () => {
   return (
     <div>
       <Navbar />
-      <div className="image pl-8 pt-40   ">
-        <h3 className="font-bold text-2xl text-gray-300">Add new book</h3>
-        <div className="image pl-10 pt-36   ">
+      <div className="image pl-4  ">
+        <h3 className="font-bold text-2xl text-gray-300 ">Add new book</h3>
+        <div className="image pl-10 pt-20   ">
 
           <form onSubmit={handleSubmit} className="flex flex-col pt-4 w-full max-w-lg box-border shadow-pink" action="">
             <h3 className="font-bold text-2xl text-[#4B5563]-600 pb-4">Add new book</h3>
@@ -62,9 +63,9 @@ const AddBook = () => {
 
             <div className="mb-4">
               <label className="block text-[#4B5563]-600 text-sm font-bold mb-2">AUTHORS</label>
-              <select name="author" className="w-full mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+              <select name="author" className="w-full text-black mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
                 {authors.map((author) => {
-                  return <option key={author._id} value={author._id}>{author.name} </option>
+                  return <option key={author._id} value={author._id}>{author.firstName + " " + author.lastName} </option>
                 })}
 
               </select>
@@ -77,11 +78,10 @@ const AddBook = () => {
                 // value="genre"
                 className="w-full mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
               >
+    <option value="">paranomal romance</option>
+    <option value=""> romance</option>
 
-                <option value="Fiction">Fiction</option>
-                <option value="Non-Fiction">Non-Fiction</option>
-                <option value="Science">Science</option>
-                <option value="History">History</option>
+                
               </select>
             </div>
 
