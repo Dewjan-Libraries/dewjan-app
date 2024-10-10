@@ -10,11 +10,11 @@ import {Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex h-full  justify-between bg-black w-full">
-      <div className=" grid grid-cols-3 gap-x-10 pt-10 pr-10 pl-10 bg-[#FEE2E2] w-[full] ">
+    <div className="flex  h-full  justify-between  w-[100%]">
+      <div className=" grid grid-cols-3 gap-x-10 pt-10 pr-10 pl-10 bg-[#FEE2E2] w-screen">
         <div className="">
         <h1 className="text-3xl pb-5">About the Library</h1>
-        <p className="">
+        <p className="flex flex-col gap-4">
           {/* <Link to="/pro" onclick={handleClick}>pro</Link> */}
           <Link to="/Home">Vison, Mission & Values
           </Link>
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         <div>
         <h1 className="text-3xl pb-5">Accessibility</h1>
-        <p>
+        <p className="flex flex-col gap-4">
         <Link to="/contact">Contact
         </Link>
         <Link to="/Viewing Books">Available Books
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div>
         <h1 className="text-3xl pb-5">Library Policies</h1>
-        <p>
+        <p className="flex flex-col gap-4">
         <Link to="/Hero">Opening time
         </Link>
         <Link to="/Hero">Open Data and Feed
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         
       </div>
-      <div className="bg-[#e09494] w-[full] pt-10 pl-10">
+      <div className="bg-[#e09494] pt-10 pl-10 ">
         <h1 className="text-3xl font-bold"><span className="text-rose-800 font-bold"><FontAwesomeIcon icon={faBookOpenReader} /></span> Public Library </h1>
         <p className="text-2xl">123 Kojo Thompson Road, Accra</p>
         <p className="text-2xl">030 546 789 123</p>

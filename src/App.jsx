@@ -7,6 +7,7 @@ import BookList from './pages/bookList';
 import AddBook from './pages/addBook';
 import BookDetails from './pages/bookDetails';
 import Hero from './pages/hero';
+import About from './pages/about';
 
 
 
@@ -24,6 +25,10 @@ function App() {
 {
   path:"/add-new",
   element: <AddBook/>,
+},
+{
+  path:"/dewjan",
+  element: <About/>,
 },
 {
   path:"/books/:id",

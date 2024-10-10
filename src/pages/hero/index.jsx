@@ -4,7 +4,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
-// import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+
 import "animate.css";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
@@ -14,45 +14,8 @@ const Hero = () => {
     <div>
       <Navbar />
       <div className="h-screen w-screen hero">
-        <div className="flex pt-40 flex-col  pl-5 items-start gap-1">
-          <button type="submit" className="text-3xl text-white bg-[#CC5E33] border-solid py-1 px-3">
-            <FontAwesomeIcon icon={faPlus} />
-          </button>
-          <div className="text-3xl text-white bg-orange-500 border-solid py-1 px-3 ">
-            <h1>
-              <FontAwesomeIcon icon={faTrash} />
-            </h1>
-          </div>
-          <div className="text-3xl text-white  bg-orange-500 border-solid py-1 px-2.5">
-            <h1>
-              <FontAwesomeIcon icon={faPenToSquare} />
-            </h1>
-          </div>
-        </div>
-        <div className="flex  pl-3 pt-20 pb-10 text-6xl text-white font-bold animist">
+        <div className="flex justify-center items-center pt-96 bg-gradient-to-r text-6xl text-white font-bold animist">
           Library App for Easy Learning
-        </div>
-        <div className="flex justify-between ml-5 border rounded w-[90vw] h-[15vh]">
-          <form className=" flex  text-3xl bg-[#e0ba97] hover:bg-[#EF4444] w-[70%] pl-5 pt-5 ">
-            <button className="text-[#c44615]" type="submit">
-              <FontAwesomeIcon icon={faMagnifyingGlass} />
-            </button>
-            <input
-              className="bg-[#e0ba97] hover:bg-[#EF4444] text-2xl"
-              type="text"
-              placeholder=" search here"
-            />
-          </form>
-
-          <div className="flex justify-center w-[30%] bg-[#cc5e33] text-3xl pb-5">
-            <h2>Category</h2>
-            <select className="bg-[#cc5e33]">
-              <option value="Title">Title</option>
-              <option value="Author">Author</option>
-              <option value="Genre">Genre</option>
-              <option value="Year">Year</option>
-            </select>
-          </div>
         </div>
       </div>
       <Footer />
