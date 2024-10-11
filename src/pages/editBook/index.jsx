@@ -6,7 +6,8 @@ const EditBook = () => {
     return (
 
         <div>
-            <div className=' ml-4'>
+            
+            <div className=' ml-4 '>
                 <button className="flex items-center p-2 text-gray-700 hover:text-red-500 hover:bg-gray-100 transition-all duration-200  border-gray-300 rounded-full " type='submit'>
                     <FontAwesomeIcon className="text-3xl  " icon={faCircleArrowLeft} />
                 </button>

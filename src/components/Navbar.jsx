@@ -4,28 +4,25 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import pic from '../assets/images/image-20.jpg'
 
 
 const Navbar = () => {
 
     return (
-        <nav className="bg-red-50 fixed w-full shadow-lg ">
+        <nav className="bg-[#fef2f2fb] fixed w-full shadow-lg ">
 
             <div className="from-inherit text-black ">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex justify-between items-center">
-                        <div className="logo italic">
-                            <div>
-                                <a href="#" className="flex items-center ">
-
-                                    <span className="font-bold font-mono text-red-600 text-6xl ">D</span>
+                        <div className="logo flex items-center italic h-20 w-14">
+                                <img src={pic} alt="" srcSet='' />
+                                    <span className="font-bold font-mono text-red-600 ml-3 text-6xl ">D</span>
                                     <span className="font-bold font-mono text-red-600 text-4xl">ew</span>
                                     <span className="font-bold font-mono text-gray-600 text-4xl">jan</span>
                                     <span className="font-bold font-mono text-red-600 text-6xl  pl-3">L</span>
                                     <span className="font-bold font-mono text-red-600 text-4xl">ibra</span>
-                                    <span className="font-bold font-mono text-gray-600 text-4xl ">ries</span>
-                                </a>
-                            </div>
+                                    <span className="font-bold font-mono text-gray-600 text-4xl ">ries</span> 
                         </div>
 
                         <div className="flex space-x-2 items-center pl-6" >
@@ -54,13 +51,13 @@ const Navbar = () => {
                             <a href="#" className="py-4 px-2  text-red-400 font-medium text-lg">Home</a>
 
                             <NavLink className="py-4 px-2 text-gray-600  font-medium hover:text-red-400 transition duration-300 text-lg" to='/list'>View Books</NavLink>
-                            
+
                             <NavLink className="py-4 px-2 text-gray-600  font-medium hover:text-red-400 transition duration-300 text-lg" to='/video' >About Us</NavLink>
 
                             <a href="#" className="py-4 px-2 text-gray-600  font-medium hover:text-red-400 transition duration-300 text-lg">Manage Books</a>
 
                             <a href="#" className="py-4 px-2 text-gray-600  font-medium hover:text-red-400 transition duration-300 text-lg">Contact</a>
-                           
+
                         </ul>
 
                     </div>
