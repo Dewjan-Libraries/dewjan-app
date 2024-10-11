@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="text-5xl pt-96 pb-10 text-white ml-7 ">
-        <h1 >Library Management App</h1>
+        <h1 >Discover Your Next Great Read: </h1>
       </div>
       <div className="flex  justify-between text-white border solid text-2xl border-orange-400 border-l-orange-400 rounded-lg items-center w-[95vw] ml-6">
         <div className=" flex  w-[70%] h-[20vh] bg-orange-300 pl-10 rounded-lg hover:bg-red-500 hover:border-red-400  ">

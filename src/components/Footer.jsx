@@ -10,8 +10,8 @@ import {Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex  h-full  justify-between  w-[100%]">
-      <div className=" grid grid-cols-3 gap-x-10 pt-10 pr-10 pl-10 bg-[#FEE2E2] w-screen">
+    <div className="md:flex  h-full  justify-between  w-[100%]">
+      <div className=" grid grid-cols-3 gap-x-10 pt-10 pr-10 pl-10 bg-[#FEE2E2]  w-screen">
         <div className="">
         <h1 className="text-3xl pb-5">About the Library</h1>
         <p className="flex flex-col gap-4">
@@ -50,13 +50,13 @@ const Footer = () => {
         
       </div>
       <div className="bg-[#e09494] pt-10 pl-10 ">
-        <h1 className="text-3xl font-bold"><span className="text-rose-800 font-bold"><FontAwesomeIcon icon={faBookOpenReader} /></span> Public Library </h1>
+        <h1 className="text-3xl font-bold"><span className="text-[#DA2626] font-bold"><FontAwesomeIcon icon={faBookOpenReader} /></span> Dewjan Library </h1>
         <p className="text-2xl">123 Kojo Thompson Road, Accra</p>
         <p className="text-2xl">030 546 789 123</p>
         <div className="flex gap-10 pt-5 pb-5">
-          <span className="text-4xl text-blue-800 "><FontAwesomeIcon  className="" icon= {faFacebook} /></span>
-          <span className="text-4xl text-red-600"><FontAwesomeIcon icon= {faSquareInstagram} /></span>
-          <span className="text-4xl text-blue-500"><FontAwesomeIcon icon= {faSquareTwitter }  /></span>
+          <span className="text-4xl text-white"><FontAwesomeIcon  className="" icon= {faFacebook} /></span>
+          <span className="text-4xl text-white"><FontAwesomeIcon icon= {faSquareInstagram} /></span>
+          <span className="text-4xl text-white"><FontAwesomeIcon icon= {faSquareTwitter }  /></span>
         </div>
       </div>
     </div>
