@@ -13,9 +13,13 @@ const Hero = () => {
   return (
     <div>
       <Navbar />
-      <div className="h-screen w-screen hero">
-        <div className="flex justify-center items-center pt-96 bg-gradient-to-r text-6xl text-white font-bold animist">
-          Library App for Easy Learning
+      <div className="h-screen w-screen hero ">
+        <div className="flex justify-center flex-col items-center pt-96 bg-gradient-to-r text-6xl text-white font-bold animist">
+          <div className="bg-[rgba(26,24,24,0.6)] ">
+          Discover Your Next Great Read
+          <p>Share, and Connect with Literature</p>
+          </div>
+        
         </div>
       </div>
       <Footer />
