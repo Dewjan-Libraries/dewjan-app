@@ -57,7 +57,8 @@ const Booklist = () => {
               <FontAwesomeIcon icon={faHome} />
             </button>
           </Link>
-          <Link to="/">
+          
+          <Link to="/edit">
             <button
               className="text-3xl text-white  bg-[#070c47] border-solid py-1 px-3 hover:bg-gradient-to-r from-[#ac2626] via-[#f11cbc] to-red-400"
               type="submit"
@@ -118,7 +119,7 @@ const Booklist = () => {
               {" "}
               <span className="font-bold italic">Pdf: </span>
               <Link className="italic font-bold text-blue-700" to={book.pdf}>
-                Link
+                click to Download
               </Link>
             </p>
             </div>
